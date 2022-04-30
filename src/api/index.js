@@ -6,7 +6,7 @@ const instance = axios.create({
 });
 
 const baseQueryParams = {
-  // apikey: process.env.REACT_APP_MARVEL_API_KEY,
+  //apikey: process.env.REACT_APP_MARVEL_API_KEY,
   ts: 100,
   apikey: '3a4b1d2b8a0b3008c5b13a548b676ecd',
   hash: '8b2b658ca5d88ce484d9ce9674fe3ddb',

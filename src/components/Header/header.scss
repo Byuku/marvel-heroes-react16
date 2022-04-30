@@ -5,9 +5,10 @@
     height: fit-content;
     justify-content: space-between;
     place-items: center;
-    padding: 10px 30px;
+    padding: 10px 15px;
 
     @media screen and (min-width: $md-screen) {
         flex-direction: row;
+        padding: 10px 30px;
     }
 }

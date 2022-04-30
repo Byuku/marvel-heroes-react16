@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { get } from '../../api/index';
 import { HeroContext } from '../../HeroContext';
-import { TextField, Theme } from '@lumx/react';
-import { mdiMagnify } from '@lumx/icons';
+// import { TextField, Theme } from '@lumx/react';
+// import { mdiMagnify } from '@lumx/icons';
 
 const SearchField = () => {
     const {setSearchResults} = useContext(HeroContext);
@@ -31,7 +31,8 @@ const SearchField = () => {
 
     return (
         <div className='search-field'>
-            <TextField theme={Theme.dark} placeholder="Search ..." icon={mdiMagnify} onKeyUp={submitSearch}/>
+            <input type="search" placeholder="Search ..." onKeyUp={submitSearch} />
+            {/* <TextField theme={Theme.dark} placeholder="Search ..." icon={mdiMagnify} onKeyUp={submitSearch}/> */}
         </div>
     );
 };

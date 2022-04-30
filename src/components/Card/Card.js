@@ -18,7 +18,7 @@ const Card = ({hero}) => {
             <div className="card-info">
                 <p className="title">{hero.name}</p>
                 <p className="description">{getDescription(hero)}</p>
-                <button className="primary">See details</button>
+                <button className="primary disabled">See details</button>
             </div>
         </div>
     );
