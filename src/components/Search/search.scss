@@ -1,0 +1,18 @@
+.search {
+    background: url(https://developer.marvel.com/i/images/developers/docs-bg.jpg) no-repeat top right;
+    margin: 0 auto;
+    min-height: 350px;
+    padding: 60px 30px;
+
+    @media screen and (min-width: $md-screen) {
+        max-width: 1200px;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .danger {
+        margin-bottom: 30px;
+    }
+}

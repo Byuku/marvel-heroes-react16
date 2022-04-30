@@ -1,0 +1,42 @@
+button {
+    background-color: transparent;
+    border-radius: 6px;
+    color: $white;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 12px;
+    width: 150px;
+
+    &.primary {
+        background-color: $blue;
+        border: 0;
+
+        &:hover {
+            background-color: darken($blue, 30%);
+        }
+
+    }
+
+    &.danger {
+        border: 1px solid $red;
+        color: $red;
+
+        &:hover {
+            background-color: darken($red, 10%);
+            color: $white;
+        }
+    }
+
+    &.page-btn {
+        border: 1px solid $dark-grey;
+        color: $dark-grey;
+        width: auto;
+
+        &:hover {
+            background-color: $dark-grey;
+            color: $white;
+        }
+    }
+
+    
+}
